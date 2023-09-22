@@ -1,6 +1,6 @@
-package com.etsugo.designpattern.factorymethodpattern.helicopter;
+package com.etsugo.designpattern.factorymethod.helicopter;
 
-import com.etsugo.designpattern.factorymethodpattern.Aircraft;
+import com.etsugo.designpattern.factorymethod.Aircraft;
 
 public class Helicopter implements Aircraft
 {

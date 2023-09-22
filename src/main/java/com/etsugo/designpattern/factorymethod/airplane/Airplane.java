@@ -1,6 +1,6 @@
-package com.etsugo.designpattern.factorymethodpattern.airplane;
+package com.etsugo.designpattern.factorymethod.airplane;
 
-import com.etsugo.designpattern.factorymethodpattern.Aircraft;
+import com.etsugo.designpattern.factorymethod.Aircraft;
 
 public class Airplane implements Aircraft {
 

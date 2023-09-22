@@ -1,4 +1,4 @@
-package com.etsugo.designpattern.factorymethodpattern;
+package com.etsugo.designpattern.factorymethod;
 
 public interface Aircraft
 {

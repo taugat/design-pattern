@@ -1,7 +1,7 @@
-package com.etsugo.designpattern.factorymethodpattern;
+package com.etsugo.designpattern.factorymethod;
 
-import com.etsugo.designpattern.factorymethodpattern.airplane.AirplaneCreator;
-import com.etsugo.designpattern.factorymethodpattern.helicopter.HelicopterCreator;
+import com.etsugo.designpattern.factorymethod.airplane.AirplaneCreator;
+import com.etsugo.designpattern.factorymethod.helicopter.HelicopterCreator;
 
 /**
  * Creator class:
