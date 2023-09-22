@@ -1,9 +1,9 @@
 package com.etsugo.designpattern.factorymethodpattern.airplane;
 
 import com.etsugo.designpattern.factorymethodpattern.Aircraft;
-import com.etsugo.designpattern.factorymethodpattern.AircraftFactory;
+import com.etsugo.designpattern.factorymethodpattern.AircraftCreator;
 
-public class AirplaneFactory extends AircraftFactory
+public class AirplaneCreator extends AircraftCreator
 {
 
 	@Override
