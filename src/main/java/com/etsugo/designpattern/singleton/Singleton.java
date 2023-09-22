@@ -2,7 +2,7 @@ package com.etsugo.designpattern.singleton;
 
 /**
  * An example of a singleton.
- * The singleton pattern is used when we need to have only one instance of an object. (e.g. : database instance)
+ * The singleton pattern is used when we need to a unique instance of an object. (e.g. : database instance)
  */
 public class Singleton
 {
@@ -23,6 +23,9 @@ public class Singleton
 		this.data = data;
 	}
 	
+	/*
+	 * static access to the instance
+	 */
 	public static Singleton getInstance(String data)
 	{
 		if (instance == null)//Skipping synchronisation if not null => better performance because no waiting sync for the main cases
